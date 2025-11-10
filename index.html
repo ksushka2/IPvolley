@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт о волейболе - моем любимом хобби. История, правила, техники игры.">
+    <meta name="keywords" content="волейбол, спорт, хобби, правила игры, история волейбола">
+    <meta name="author" content="Апахова Ксения ИСТбд-31">
+    <title>Волейбол - Мое Хобби</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Волейбол</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="history.html">История</a></li>
+                <li><a href="rules.html">Правила</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>Добро пожаловать на сайт о волейболе!</h2>
+
+            <img src="img/myach.png" alt="Волейбольный мяч" class="float-left">
+            
+            <p>Волейбол — вид спорта, командная игра, в процессе которой две команды соревнуются на специальной площадке, разделённой сеткой, стремясь направить мяч на сторону соперника таким образом, чтобы он приземлился на площадке противника, либо чтобы игрок защищающейся команды допустил ошибку.</p>
+            
+            <p>Это динамичная игра, которая требует от игроков хорошей физической подготовки, координации движений, стратегического мышления и командной работы.</p>
+        </section>
+
+        <section id="basics">
+            <h2>Основы волейбола</h2>
+            
+            <h3>Основные элементы игры:</h3>
+            <ul>
+                <li><strong>Подача</strong> - начало розыгрыша мяча.</li>
+                <li><strong>Приём</strong> - принятие подачи соперника.</li>
+                <li><strong>Пас</strong> - передача мяча для атаки.</li>
+                <li><strong>Атака</strong> - удар по мячу на сторону соперника.</li>
+                <li><strong>Блок</strong> - преграждение пути мячу у сетки.</li>
+                <li><strong>Защита</strong> - приём атакующих ударов.</li>
+            </ul>
+            <h3>Размеры площадки:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Параметр</th>
+                        <th>Мужчины</th>
+                        <th>Женщины</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Длина площадки</td>
+                        <td>18 метров</td>
+                        <td>18 метров</td>
+                    </tr>
+                    <tr>
+                        <td>Ширина площадки</td>
+                        <td>9 метров</td>
+                        <td>9 метров</td>
+                    </tr>
+                    <tr>
+                        <td>Высота сетки</td>
+                        <td>2,43 метра</td>
+                        <td>2,24 метра</td>
+                    </tr>
+                    <tr>
+                        <td>Игроков в команде</td>
+                        <td>6</td>
+                        <td>6</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="img/ploshadka.png" alt="Волейбольная площадка" class="court-rotated">
+        </section>
+
+        <section id="javascript-demos">
+            <h2>Дополнительные функции</h2>
+            
+            <div class="js-section">
+                <h3>Удаление слов более 7 букв</h3>
+                <textarea id="textInput1" placeholder="Введите предложение...">Волейбол это интересная спортивная игра которая требует мастерства</textarea>
+                <button onclick="removeLongWords()">Удалить длинные слова</button>
+            </div>
+
+            <div class="js-section">
+                <h3>Поиск наиболее часто встречающейся буквы</h3>
+                <textarea id="textInput2" placeholder="Введите текст...">Волейбол популярная игра во всем мире</textarea>
+                <button onclick="findMostFrequentLetter()">Найти частую букву</button>
+            </div>
+
+            <div class="js-section">
+                <h3>Изменение цвета фона</h3>
+                <button onclick="changeBackgroundColor('#E3F2FD')">Голубой</button>
+                <button onclick="changeBackgroundColor('#F3E5F5')">Фиолетовый</button>
+                <button onclick="changeBackgroundColor('#E8F5E9')">Зелёный</button>
+                <button onclick="changeBackgroundColor('#FFF3E0')">Оранжевый</button>
+                <button onclick="changeBackgroundColor('#FFFFFF')">Белый (по умолчанию)</button>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>О сайте</h2>
+            <p>Этот сайт создан в рамках лабораторной работы для демонстрации навыков веб-разработки.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Полезные ссылки</h2>
+            <ul>
+                <li><a href="https://volley.ru" target="_blank">Официальная страница Всероссийской Федерации Волейбола</a>.</li>
+                <li><a href="history.html">Перейти к истории</a>.</li>
+                <li><a href="rules.html">Перейти к правилам игры</a>.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Ноябрь 2025 Волейбол</p>
+        <p>Апахова Ксения ИСТбд-31</p>
+    </footer>
+</body>
+</html>
+
